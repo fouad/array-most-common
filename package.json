@@ -1,0 +1,35 @@
+{
+  "name": "array-most-common",
+  "version": "1.0.0",
+  "description": "Small utility function to get the most common item in an array",
+  "main": "index.js",
+  "author": "Fouad Matin",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha -R spec index.test.js",
+    "precommit": "npm run prettier",
+    "prepush": "npm test",
+    "prettier": "prettier --write *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fouad/array-most-common.git"
+  },
+  "homepage": "https://github.com/fouad/array-most-common",
+  "bugs": {
+    "url": "https://github.com/fouad/array-most-common/issues"
+  },
+  "keywords": [
+    "common",
+    "array",
+    "most",
+    "items",
+    "cardinality"
+  ],
+  "devDependencies": {
+    "husky": "^0.13.2",
+    "mocha": "^3.2.0",
+    "prettier": "^0.22.0"
+  },
+  "dependencies": {}
+}
